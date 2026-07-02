@@ -5,4 +5,4 @@ dotenv.config();
 
 const PORT = process.env.PORT || 3333;
 
-app.listen(3333, ()=>console.log('serve rodando na porta ' + PORT));
+app.listen(PORT, ()=>console.log('serve rodando na porta ' + PORT));
